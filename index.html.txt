@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>결제 완료</title>
+</head>
+<body style="text-align:center; padding-top:100px;">
+  <h1 style="font-size:36px;">결제되었습니다!</h1>
+  <p style="font-size:20px;">맛있게 드세요!</p>
+  <button onclick="document.getElementById('sound').play()" style="font-size: 20px; padding: 10px 20px; margin-top: 20px;">소리 듣기</button>
+  <audio id="sound">
+    <source src="payment.mp3" type="audio/mpeg">
+  </audio>
+</body>
+</html>
